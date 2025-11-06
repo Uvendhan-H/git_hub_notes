@@ -1,0 +1,49 @@
+* Download GIT and create a account in GITHUB if you don't have account in it..
+
+After the download and install open cmd and type git.
+follow the cmds to merge the git and GitHub to your git account.
+
+git config --global user.name "<<Exact name from the GitHub account>>"
+git config --global user.mail ""<<mail ID used in git hub account>>""
+
+git config --list
+
+Create a folder in local system and also create a repository in GitHub.
+
+In order to download from GitHub use the cmd : git clone <<paste the link provided from that>>.
+
+Open the folder(github folder) in VScode and create a new file you want inside the folder and 
+
+
+Important steps:
+
+1.) git add <<any file that you want to add in git folder in local repository>>
+
+## we have to use the git add for the changes done in local file or deleting the files in local, so the changes can be update or delete in repository also.
+
+ 1.1.) git add .
+
+## This will upload all the files in the folder and also the changes done in all files once and for all.
+
+
+### When you use git add , the folder or file will go to the process called staging but the file or folder still not added into git ### 
+
+2.) git commit -m "any_message"
+
+### This will add the folder or file from staging process to git. 
+
+3.) git remote add origin <<paste the repository link>>
+
+### This will create connection to the repository in GitHub and the folder we created in the local system.
+
+4.)git push
+
+### This will upload the files or the changes done in the local file to GitHub.  
+
+5.)git pull
+
+### git pull is quite opposite to git push. In git pull we can get the updates and changes done in GitHub repository to the local system. In projects many people will work. So people will update or change the files in repository.
+
+
+
+ 

@@ -58,7 +58,7 @@ Open the folder(github folder) in VScode and create a new file you want inside t
 
 
 
-2.) **git commit -m "any\_message"**
+2.) **git commit -m "any messages"**
 
 
 
@@ -99,6 +99,10 @@ Open the folder(github folder) in VScode and create a new file you want inside t
 
 
 \### It will give the list of branches in the repository.
+
+
+
+
 
 
 
